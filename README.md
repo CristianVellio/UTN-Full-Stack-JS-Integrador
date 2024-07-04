@@ -24,7 +24,11 @@ Stack Utilizado:
 ## Integrantes
 
 [Cristian Vellio](https://github.com/CristianVellio)
+
 [Carlos Santillan](https://github.com/DeepFuryX)
+
 [Camila Batistuta](https://github.com/camilabatistuta)
+
 [Alexis Mouesca](https://github.com/AlexisMouesca)
+
 [Yesse](https://github.com/Yesse1116)
