@@ -1,165 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>AlexTerrible</title>
-</head>
-<body class="texto ">
-    <header id="arriba" class="encabezado"> <!-- Encabezado - Logo- Titulo-->
-        <h1>Entrenamiento Personalizado</h1>
-    <nav>
-        <div class="menuCelular">Menu celular</div>
-        <ul class="menuSuperior">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-            <li><a href="#entrenemos">Entrena Conmigo</a></li>
-            <li><a href="#rutinas">Rutinas Basicas</a></li>
-        </ul>
-    </nav>
-</header>
-    <section id="inicio">
-        <div>
-            <h2>Bienvenido a AlexTerrible Project </h2>
-            <p>¡Me alegra que hayas llegado! Soy Alexis, tu entrenador personal dedicado a ayudarte a alcanzar tus objetivos de fitness.</p>
-            <p>En esta página encontrarás información sobre los servicios que ofrezco, así como también podrás ponerte en contacto conmigo para empezar a trabajar juntos.</p>
-        </div>
-    </section>
-    <section id="servicios">
-        <div>
-            <h2>Servicios</h2>
-        <p>Ofrezco una variedad de servicios de entrenamiento personalizado para adaptarme a tus necesidades específicas. Algunos de mis servicios incluyen:</p>
-        <ul>
-            <li>Entrenamiento en gimnasio</li>
-            <li>Entrenamiento al aire libre</li>
-            <li>Planificación de dietas y nutrición</li>
-            <li>Asesoramiento y motivación personalizada</li>
-        </ul>
-        <p>¡Contáctame para obtener más información sobre cómo puedo ayudarte a alcanzar tus metas de fitness!</p>
-        </div>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <section id="contacto">
-        <div>
-            <h2>Contacto</h2>
-        <p>¿Listo para comenzar tu viaje de fitness? Ponte en contacto conmigo hoy mismo para programar una consulta gratuita.</p>
-        </div>
-    </section>
+    <title>JS Movies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <h1><i class="fa-solid fa-film"></i> JS Movies</h1></a
+          >
 
-    <section id="entrenemos" class="contenido">
-        <div>
-            <h2>Entrena Conmigo</h2>
-            <div class="cajaPadreFotos">
-            <div class="contenido_imagen">
-                <img src="./Imagenes/Hombros.jpg" alt="vuelos">
-            </div>
-            <div class="contenido_imagen">
-                <img src="./Imagenes/PosingBiceps.jpg" alt="vuelos">
-            </div>
-            <div class="contenido_imagen">
-                <img src="./Imagenes/FotoAscensor.jpg" alt="vuelos">
-            </div>
-            <div class="contenido_imagen">
-                <img src="./Imagenes/FotoEspejo.jpg" alt="vuelos">
-            </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Peliculas</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="busqueda" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </section>
-    <div class="cajaPadreVideo">
-            <div class="cajaVideo">
-                <video controls muted class="contenidoVideo">
-                    <source src="./Videos/VuelosLaterales.mp4" type="video/mp4">
-                    <source src="./Videos/VuelosLaterales.mp4" type="video/ogg">
-                </video>
-            </div>
-            <div class="cajaVideo">
-                <video controls muted class="contenidoVideo">
-                    <source src="./Videos/PressInclinado.mp4" type="video/mp4">
-                </video>
-            </div>    
-    </div>
+      </nav>
+    </header>
 
-    <section id="rutinas">
-        <div>
-            <h2>¿No sabes como empezar a entrenar? Aqui te dejo rutinas basicas de regalo para que empieces en el mundo fittnes</h2>
-            <div class="caja_padre">
-                <div class="box_model">
-                    <h3>Mujer</h3>
-                        <ol>
-                            <p>Lunes/Jueves: Gluteos</p>
-                            <li>Camilla Femoral 3x12</li>
-                            <li>Estocadas 3x12</li>
-                            <li>Patada en Maquina 3x12</li>
-                            <li>Patada Lateral en Maquina 3x12</li>
-                            <li>Sentadilla Sumo 3x12</li>
-                            <li>Abductores 3x15</li>
-                        </ol>
-                        <ol>
-                            <p>Martes/Viernes: Espalda-Triceps</p>
-                            <li>Vuelos Laterales 3x15</li>
-                            <li>Vuelos Frontales 3x15</li>
-                            <li>Jalones al Pecho 3x15</li>
-                            <li>Remo Maquina 3x15</li>
-                            <li>Bicep Alternado 3x15</li>
-                            <li>Tricep Trasnuca con Mancuerna 3x15</li>
-                        </ol>
-                        <ol>
-                            <p>Miercoles/Sabado: Piernas-Homrbos</p>
-                            <li>Sentadillas 3x12</li>
-                            <li>Sillon de Cuadriceps 3x12</li>
-                            <li>Camilla Femoral 3x12</li>
-                            <li>Estocadas 3x12</li>
-                            <li>Sillon de Aductores 3x20</li>
-                            <li>Prensa 45º 3x12</li>
-                        </ol>
-                </div>
-                <div class="box_model2">
-                    <h3>Hombre</h3>
-                        <ol>
-                            <p>Lunes/Jueves: Pecho-Biceps</p>
-                            <li>Banco Plano 3x12</li>
-                            <li>Apertura Banco Plano 3x12</li>
-                            <li>Peck Deck 3x12</li>
-                            <li>Press Mancuerna inclinado 3x12</li>
-                            <li>Biceps Alternado 3x12</li>
-                            <li>Biceps Banco Scott 3x15</li>
-                            <li>Biceps Martillo 3x15</li>
-                        </ol>
-                        <ol>
-                            <p>Martes/Viernes: Espalda-Triceps</p>
-                            <li>Remo Maquina 3x12</li>
-                            <li>Jalones al Pecho 3x12</li>
-                            <li>Remo T 3x12</li>
-                            <li>Cerrucho 3x12</li>
-                            <li>Tricep con Soga 3x15</li>
-                            <li>Tricep con Mancuerna 3x15</li>
-                            <li>Patada de Tricep con Mancuerna</li>
-                        </ol>
-                        <ol>
-                            <p>Miercoles/Sabado: Piernas-Hombros</p>
-                            <li>Sentadilla con Mancuerna 3x12</li>
-                            <li>Sillon de Cuadriceps 3x12</li>
-                            <li>Camilla Femoral 3x12</li>
-                            <li>Prensa 45º 3x12</li>
-                            <li>Press Militar 3x15</li>
-                            <li>Vuelos Laterales 3x10</li>
-                            <li>Vuelos Frontales 3x10</li>
-                        </ol>
-                </div>
-            </div>
-        </div>
-            <footer class="footer">
-            <div> Copyright (C) 2024 AlexSteel - Todos los derechos reservados </div>
-            <div class="link-arriba"> 
-                <a href="#arriba">Arriba</a>
-            </div>
-        </footer>
-    </section>
+    <main>
+      <section class="peliculas_main">
+        <div class="peliculas_main_grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="derechos">
+        JS Movies© - 2024 - Todos los derechos reservados
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="./main.js"></script>
   </body>
 </html>
