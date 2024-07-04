@@ -16,10 +16,6 @@ Stack Utilizado:
 
 [demo](https://)
 
-## Imagenes
-
-[Mobile](#)
-[Desktop](")
 
 ## Integrantes
 
