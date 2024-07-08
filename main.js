@@ -39,8 +39,6 @@ async function getMovies() {
     <img src="https://image.tmdb.org/t/p/w500${movies[index].poster_path}" alt="${movies[index].title}">
       <P>Nombre Original: ${movies[index].original_title}</P>
       <p>Fecha: ${movies[index].release_date}</p>
-      <p>Popularidad: ${movies[index].popularity}</p>
-      <p>Descripcion: ${movies[index].overview}</p>
       `;
       contenedor.innerHTML += renderMovies;
     }
