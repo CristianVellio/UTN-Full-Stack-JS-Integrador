@@ -16,7 +16,6 @@ Stack Utilizado:
 
 [demo](https://)
 
-
 ## Integrantes
 
 [Cristian Vellio](https://github.com/CristianVellio)
@@ -27,4 +26,4 @@ Stack Utilizado:
 
 [Alexis Mouesca](https://github.com/AlexisMouesca)
 
-[Yesse](https://github.com/Yesse1116)
+[Yasenia Espinoza](https://github.com/Yesse1116)
