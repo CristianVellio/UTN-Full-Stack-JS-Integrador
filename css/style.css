@@ -80,12 +80,6 @@ nav {
   padding: 10px 20px;
 }
 
-.card img {
-  width: 100%;
-  height: 700px;
-  border-radius: 5px;
-}
-
 .peliculas_main_grid .card button {
   background-color: #e75a5a;
   color: white;
@@ -97,7 +91,15 @@ nav {
   cursor: pointer;
 }
 
-.miLista h2 {
+.container .miLista_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 2rem;
+}
+
+.miLista_main h2 {
   display: flex;
   justify-content: center;
   color: #e75a5a;
@@ -107,6 +109,50 @@ nav {
   margin: 20px;
   margin-bottom: 20px;
   align-self: first baseline;
+}
+
+.miLista_main_grid {
+  background-color: #faf5fa09;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 2rem;
+}
+
+.miLista_main img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.miLista_main_grid {
+  display: inline-block;
+}
+
+.miLista_main_grid .card {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.miLista_main_grid .card button {
+  background-color: #e75a5a;
+  color: white;
+  width: 50%;
+  align-self: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 700px;
+  border-radius: 5px;
 }
 
 .Contacto_container h2 {
