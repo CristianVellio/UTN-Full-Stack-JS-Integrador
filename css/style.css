@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -57,6 +57,11 @@ body {
 
 .peliculas_main_grid {
   display: inline-block;
+}
+
+.card {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
 }
 
 footer {
