@@ -23,7 +23,7 @@ header h1 {
 nav {
   background-color: #e75a5a;
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -54,41 +54,45 @@ nav {
 }
 
 .peliculas_main_grid {
-  background-color: #faf5fa09;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
   margin: 2rem;
 }
 
-.peliculas_main img {
-  width: 50%;
+.peliculas_main_grid .card {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.peliculas_main .card img {
+  width: 100%;
   height: auto;
   border-radius: 5px;
 }
 
-.peliculas_main_grid {
-  display: inline-block;
-}
-
-.peliculas_main_grid .card {
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px 20px;
+.peliculas_main_grid .card .card-content {
+  flex-grow: 1;
 }
 
 .peliculas_main_grid .card button {
+  display: flex;
+  justify-content: space-between;
   background-color: #e75a5a;
   color: white;
-  width: 50%;
-  align-self: center;
+  width: 75%;
   border: none;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  align-self: center;
+  bottom: 15px;
 }
 
 .container .miLista_main {
@@ -124,10 +128,6 @@ nav {
   width: 50%;
   height: auto;
   border-radius: 5px;
-}
-
-.miLista_main_grid {
-  display: inline-block;
 }
 
 .miLista_main_grid .card {
