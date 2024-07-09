@@ -220,6 +220,16 @@ nav {
   text-align: center;
 }
 
+.Contacto_container button {
+  background-color: #e75a5a;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+
 footer {
   background-color: #e75a5a;
   font-family: "Montserrat", sans-serif;
