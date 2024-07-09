@@ -1,6 +1,6 @@
 # Trabajo Practico Integrador UTN-FRBA
 
-Proyecto grupal creando un sitio web que aplique las propiedades de objetos de adicion, modicifacion y supresion en Javascript.
+Proyecto grupal creando un sitio web que aplique las propiedades de objetos de adicion, modificacion y supresion en Javascript.
 
 ## Modulo Inicial Frontend
 
