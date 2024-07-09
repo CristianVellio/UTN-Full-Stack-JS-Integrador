@@ -2,9 +2,7 @@
 
 Proyecto grupal creando un sitio web que aplique las propiedades de objetos de adicion, modificacion y supresion en Javascript.
 
-## Modulo Inicial Frontend
-
-Stack Utilizado:
+## Stack utilizado
 
 - HTML
 - CSS
