@@ -5,6 +5,7 @@ Proyecto grupal creando un sitio web que aplique las propiedades de objetos de a
 ## Stack utilizado
 
 - HTML
+- API
 - CSS
 - Javascript
 - Bootstrap
